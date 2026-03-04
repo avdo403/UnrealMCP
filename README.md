@@ -1,6 +1,10 @@
 # UnrealMCP
 
 <div align="center">
+  <img src="https://github.com/avdo403/UnrealMCP/blob/main/unrealmcp.png" width="200" alt="UnrealMCP Logo">
+</div>
+
+<div align="center">
 
 ![UnrealMCP Banner](https://img.shields.io/badge/Unreal%20Engine-5.x-blue?style=for-the-badge&logo=unrealengine&logoColor=white)
 ![MCP Protocol](https://img.shields.io/badge/MCP-Protocol-purple?style=for-the-badge)
@@ -9,9 +13,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Platforms](https://img.shields.io/badge/Platforms-Win64%20%7C%20Mac%20%7C%20Linux-lightgrey?style=for-the-badge)
 
-<div align="center">
-  <img src="https://github.com/avdo403/UnrealMCP/blob/main/unrealmcp.png" width="200" alt="UnrealMCP Logo">
-</div>
+
 
 **A powerful Model Context Protocol (MCP) plugin for Unreal Engine 5**  
 *Bridge your AI assistant directly to the Unreal Editor*
