@@ -1,0 +1,31 @@
+[project]
+name = "unreal-engine-mcp"
+version = "0.1.0"
+description = "Unreal MCP Advanced Server: A streamlined server for advanced Unreal Engine composition and building tools via MCP."
+readme = "README_advanced.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+  "mcp[cli]>=1.4.1",
+  "fastmcp>=0.2.0",
+  "uvicorn",
+  "fastapi",
+  "pydantic>=2.6.1",
+  "requests",
+  "docker>=7.0.0",
+  "ipybox>=0.1.0",
+  "noise>=1.2.2",
+  "numpy>=1.24.0",
+  "scipy>=1.10.0",
+  "matplotlib>=3.7.0",
+  "graphviz>=0.20.0",
+  "python-dotenv>=1.0.0",
+  "networkx>=3.0"
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# The advanced server script is a single-file module
+py-modules = ["unreal_mcp_server_advanced"] 

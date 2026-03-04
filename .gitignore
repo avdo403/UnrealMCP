@@ -1,0 +1,92 @@
+# ============================================================
+# UnrealMCP .gitignore
+# ============================================================
+
+# ============================================================
+# Unreal Engine Generated Files
+# ============================================================
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# ============================================================
+# Logs & Runtime Files
+# ============================================================
+*.log
+unreal_mcp_advanced.log
+*.tmp
+*.temp
+
+# ============================================================
+# IDE & Editor
+# ============================================================
+.vscode/
+.idea/
+*.code-workspace
+.vs/
+
+# ============================================================
+# OS Files
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Agent / AI Memory (local only)
+# ============================================================
+.agent_memory/
+
+# ============================================================
+# Local Config (contains personal paths/secrets)
+# ============================================================
+.env
+mcpjson.txt
+
+# ============================================================
+# Test & Scratch Files (personal)
+# ============================================================
+TOOLS_TO_ADD.py
+complex_logic_test.py
+run_mcp_test.py
+run_stamina_system_mcp.py
+test_stamina_system_mcp.py
+run_professional_server.bat
