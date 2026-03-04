@@ -16,6 +16,10 @@
 
 ---
 
+<div align="center">
+  <img src="https://github.com/avdo403/UnrealMCP/blob/main/unrealmcp.png" width="200" alt="UnrealMCP Logo">
+</div>
+
 ## 📖 Overview
 
 **UnrealMCP** is a full-featured Unreal Engine 5 plugin that implements the **Model Context Protocol (MCP)**, enabling AI agents like **Claude**, **Cursor**, or any MCP-compatible client to communicate directly with the Unreal Editor in real time.
